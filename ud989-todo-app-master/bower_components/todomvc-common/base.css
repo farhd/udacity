@@ -281,6 +281,10 @@ label[for='toggle-all'] {
 	color: #a9a9a9;
 	text-decoration: line-through;
 }
+/*#todo-list li .toggle:checked + label:after {
+	content: '-- done';
+  margin-left: 10px;
+}*/
 
 #todo-list li.priority:not(.completed) label {
 	color: #d66;
